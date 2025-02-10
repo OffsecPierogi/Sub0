@@ -26,7 +26,7 @@ def log(msg, severity="SUCCESS"):
 		if DEBUG_ON:
 			print(Fore.ORANGE + "[#] {}".format(msg))
 	elif severity == "success":
-		print(Fore.PURPLE + "[>] {}".format(msg))
+		print(Fore.CYAN + "[>] {}".format(msg))
 	elif severity == "error":
 		print(Fore.RED + "[!] {}".format(msg))
 
