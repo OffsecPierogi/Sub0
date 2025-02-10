@@ -1,0 +1,2 @@
+This subdomain enumeration tool will use amass, getallurls, and many others to search for available subdomains for the inputted domain. All it needs is a domains.txt & fullscope.txt file in the same directory and will enumerate subdomains for you. 
+This will be outputted to excel spreadsheets for easy use and reference. inscope, additional, and a regular subdomains file are all created when the script is done running.
